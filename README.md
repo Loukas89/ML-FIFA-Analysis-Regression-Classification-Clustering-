@@ -17,9 +17,9 @@
 Το project αποτελείται από τρία ξεχωριστά Jupyter notebooks:
 
 ```text
-kaniamos_a_regression.ipynb
-kaniamos_a_classification.ipynb
-kaniamos_a_clustering.ipynb
+Regression.ipynb
+Classification.ipynb
+Clustering.ipynb
 ```
 
 Κάθε notebook ακολουθεί παρόμοια δομή, ώστε η εργασία να είναι οργανωμένη και εύκολη στην κατανόηση.
