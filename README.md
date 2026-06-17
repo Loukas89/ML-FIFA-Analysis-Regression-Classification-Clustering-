@@ -26,13 +26,13 @@ Clustering.ipynb
 
 Η βασική δομή των notebooks είναι:
 
-1. Imports
-2. Φόρτωση και περιγραφή του dataset
+1. Import Libraries
+2. Upload Dataset and Description
 3. Exploratory Data Analysis
 4. Descriptive Statistics
 5. Preprocessing
-6. Εφαρμογή αλγορίθμων
-7. Αξιολόγηση και τελικά συμπεράσματα
+6. Application of Algorithms
+7. Evaluation
 
 Αυτή η δομή βοηθά να φανεί καθαρά όλη η διαδικασία της ανάλυσης δεδομένων, από την αρχική κατανόηση του dataset μέχρι την τελική αξιολόγηση των μοντέλων.
 
@@ -116,9 +116,9 @@ machine-learning-fifa-analysis/
 │   ├── fifa23_players_clean.csv
 │   └── world_cup_matches_clean.csv
 │
-├── kaniamos_a_regression.ipynb
-├── kaniamos_a_classification.ipynb
-├── kaniamos_a_clustering.ipynb
+├── Regression.ipynb
+├── Classification.ipynb
+├── Clustering.ipynb
 │
 └── README.md
 ```
@@ -132,7 +132,7 @@ machine-learning-fifa-analysis/
 Αρχείο:
 
 ```text
-kaniamos_a_regression.ipynb
+Regression.ipynb
 ```
 
 ## Στόχος της Παλινδρόμησης
@@ -216,7 +216,7 @@ R2 Score
 Αρχείο:
 
 ```text
-kaniamos_a_classification.ipynb
+Classification.ipynb
 ```
 
 ## Στόχος της Ταξινόμησης
@@ -328,7 +328,7 @@ Confusion Matrix
 Αρχείο:
 
 ```text
-kaniamos_a_clustering.ipynb
+Clustering.ipynb
 ```
 
 ## Στόχος της Ομαδοποίησης
@@ -504,9 +504,9 @@ pip install pandas numpy matplotlib scikit-learn jupyter
 Προτεινόμενη σειρά:
 
 ```text
-1. kaniamos_a_regression.ipynb
-2. kaniamos_a_classification.ipynb
-3. kaniamos_a_clustering.ipynb
+1. Regression.ipynb
+2. Classification.ipynb
+3. Clustering.ipynb
 ```
 
 Πριν την τελική υποβολή, προτείνεται να γίνει:
@@ -516,27 +516,6 @@ Kernel > Restart & Run All
 ```
 
 Αυτό βοηθά να επιβεβαιωθεί ότι όλα τα κελιά εκτελούνται σωστά χωρίς errors.
-
----
-
-## Δεξιότητες που παρουσιάζονται
-
-Το project δείχνει βασικές δεξιότητες σε machine learning και data analysis, όπως:
-
-* φόρτωση και κατανόηση datasets
-* καθαρισμός και προεπεξεργασία δεδομένων
-* exploratory data analysis
-* descriptive statistics
-* επιλογή features
-* train/test split
-* regression modelling
-* classification modelling
-* clustering analysis
-* αξιολόγηση μοντέλων
-* σύγκριση αλγορίθμων και παραλλαγών
-* ερμηνεία αποτελεσμάτων
-* χρήση pipelines στο scikit-learn
-* χρήση γραφημάτων για υποστήριξη της ανάλυσης
 
 ---
 
